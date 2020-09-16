@@ -1,0 +1,225 @@
+body {
+    background-color: green;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    min-height: 650px;
+    height: 100vh;
+    background: no-repeat center url(images/bg2.png);
+    background-size: cover;
+}
+
+.grid_top {
+    position: relative;
+    margin: 0 auto;
+    bottom: 45px;
+    min-width: 350px;
+    width: 100%;
+    min-height: 180px;
+    height: 25vh;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.grid_top h3 {
+    position: relative;
+    min-width: 350px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    color: #FEFEFE;
+}
+.grid_top h2 {
+    position: relative;  
+    top: 20px;
+    min-width: 350px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+.items_card {
+    position: relative;  
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 90%;
+    display: -webkit-flex; 
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap:  wrap;
+    flex-wrap: wrap;
+}
+.item_card {
+    position: relative;
+    left: 20px;
+    right: 20px;
+    bottom: 25px;
+    min-width: 270px;
+    max-width: 290px;
+    min-height: 190px;
+    max-height: 195px;
+    display: -webkit-flex; 
+    display: flex;
+    -webkit-align-self: center;
+    align-self: center;
+    -webkit-flex-wrap:  wrap;
+    flex-wrap: wrap;
+}
+.Ellipse {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0px;
+    left: 21px;
+    right: 23px;
+    bottom: auto;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.item_card h4 {
+    position: absolute;
+    top: 0px;
+    left: 104px;
+    right: 23px;
+    bottom: 12px;
+    width: 180px;
+    height: 20px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+.item_card h5 {
+    position: absolute;
+    top: 32px;
+    left: 104px;
+    right: 32px;
+    bottom: 2px;
+    width: 180px;
+    height: 37px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+}
+.item_card h6 {
+    position: absolute;
+    top: 71px;
+    left: 104px;
+    right: 104px;
+    bottom: auto;
+    width: 180px;
+    height: 124px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.btn {
+    position: relative;
+    margin: 0 auto;
+    top: 10px;
+    width: 286px;
+    height: 35px;
+    background: #FFC108;
+    border-radius: 20px;
+    display: -webkit-flex; 
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.btn p {
+    position: relative;
+    top: 9px;
+    bottom: 9px;
+    height: 17px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    display: -webkit-flex; 
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #333024;
+}
+
+
+@media screen and (max-width: 1760px) {
+    .items_card {
+        max-width: 870px;
+        height: 415px;
+    }
+}
+@media screen and (max-width: 1470px) {
+    .items_card {
+        max-width: 580px;
+        height: 610px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .items_card {
+        max-width: 290px;
+        height: 1195px;
+    }
+}
